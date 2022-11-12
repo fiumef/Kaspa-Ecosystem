@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #4263eb;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+/* HEADER */
+header {
+  width: 1fr;
+}
+.header-title-and-logo {
+  display: flex;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-logo {
+  width: 10rem;
+}
+h1 {
+  font-size: 5.4rem;
+  display: flex;
+  gap: 2.5rem;
+  letter-spacing: -1px;
+  color: #37b24d;
+}
+.kaspa-website {
+  color: #fff;
+  text-decoration: none;
+}
+.menu {
+  font-size: 2.5rem;
+  display: flex;
+  gap: 5rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ################## */
+/* End of Header */
+/* ################## */
+article {
+  width: 40%;
+  margin-bottom: 10rem;
+  padding-top: 10rem;
+  padding-left: 15rem;
+}
+.rules {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.x {
+  text-align: center;
+}
+.big {
+  font-size: 3.2rem;
+  display: inline-block;
+}
+.bet {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+}
+.bet-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+label {
+  font-size: 3rem;
+}
+input {
+  cursor: pointer;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 40px;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  background-color: #37b24d;
+  color: #fff;
+  padding-left: 1.4rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+::placeholder {
+  color: #fff;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15rem;
+  height: 75vh;
+  position: relative;
+}
+.btn {
+  height: 4rem;
+  font-size: 2rem;
+  padding: 4rem 2rem;
+  color: #fff;
+  background-color: #37b24d;
+  border: none;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #20c997;
+}
+.btn:active {
+  background-color: #099268;
+}
+div div div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+main::after {
+  width: 32rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
+  content: "Your balance : XXXXXXXX.XXXXX KASPA";
+  text-align: center;
+  position: absolute;
+  top: 5rem;
+  right: 50%;
+  transform: translate(50%, 0);
+  background-color: #37b24d;
+  padding: 2.5rem 5rem;
+  border-radius: 40rem;
+}
+/* ################### */
+/* Footer */
+/* ################### */
+.text {
+  font-size: 2.5rem;
+  padding-top: 5rem;
+  grid-column: 1 / -1;
+}
+.img {
+  width: 5rem;
+}
+.svg {
+  text-align: center;
+}
+.socials {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 5rem;
+}
+.center-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.last {
+  grid-column: 1 / -1;
+  justify-content: center;
+}
+.donation-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.text-size {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+footer {
+  display: flex;
+  width: 1fr;
+  justify-content: space-between;
+  padding: 0 10%;
+  align-items: flex-start;
+  background-color: #5c7cfa;
+  padding-bottom: 5rem;
+}
+/* End of footer */

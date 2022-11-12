@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100rem;
+  margin: 0 auto;
+  background-color: #4263eb;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.header-title-and-logo {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  padding: 2rem 5rem;
+  margin-bottom: 4.5rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  display: flex;
+  gap: 2.5rem;
+  letter-spacing: -1px;
+  color: #37b24d;
+}
+.kaspa-website:link,
+.kaspa-website:hover,
+.kaspa-website:visited {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.kaspa-website:active {
+  color: #37b24d;
+}
+h2 {
+  text-align: center;
+}
+.par {
+  line-height: 1.3;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+.notes {
+  margin-top: 2.5rem;
+}
+.notes,
+.notes1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.notes1 {
+  margin-bottom: 3rem;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+.fill {
+  height: 6rem;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  width: 55rem;
+  font-family: inherit;
+  text-align: center;
+}
+.btn {
+  height: 4.5rem;
+  font-size: 2rem;
+  padding: 4rem 2rem;
+  color: #fff;
+  background-color: #0ca678;
+  border: none;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #20c997;
+}
+.btn:active {
+  background-color: #099268;
+}
+.add-pw {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+}
